@@ -1,27 +1,54 @@
-# Object-Oriented Programming in Java Labs
+# Lab 01: Classes and Objects
 
-## Student Information
+## Objective
 
-**Full Name:** Tanaka Carlos Bhiri  
-**Registration Number:** H250472N 
-**Department:** Software Engineering 1.2
+The objective of this lab is to understand how to create classes and objects in Java and how objects can contain data and methods.
 
-## About This Repository
+## Selected Exercises
 
-This repository contains my Object-Oriented Programming in Java laboratory exercises.
+### 1. Basic Exercise — Car
 
-The repository is organized according to the labs in the university OOP Java lab manual.
+Created a `Car` class with:
+- `brand`
+- `year`
+- `mileage`
+- `display()` method
 
-## Labs
+Three Car objects were created and their details were displayed.
 
-- Lab 1: Classes and Objects
-- Lab 2: Constructors, this Keyword and static Members
-- Lab 3: Encapsulation and Access Modifiers
-- Lab 4: Inheritance
-- Lab 5: Polymorphism
-- Lab 6: Abstraction
-- Lab 7: Exception Handling
-- Lab 8: Generics and Collections
-- Lab 9: Nested Types, Enums and Records
-- Lab 10: File I/O, Lambdas and Streams
-- Lab 11: Design Patterns and Mini-Project
+### 2. Intermediate Exercise — Rectangle
+
+Created a `Rectangle` class with:
+- `width`
+- `height`
+- `area()` method
+- `perimeter()` method
+
+An array of five rectangles was created, and the rectangle with the largest area was displayed.
+
+### 3. Challenge — Address and Person
+
+Created `Address` and `Person` classes.
+
+A `Person` object contains an `Address` object. The exercise demonstrates accessing the city using a chained dot expression and handling a `null` address.
+
+## Files
+
+- `Car.java`
+- `Rectangle.java`
+- `Address.java`
+- `Person.java`
+
+## Concepts Demonstrated
+
+- Classes and objects
+- Fields and methods
+- Arrays of objects
+- Object references
+- Chained dot expressions
+- Null references
+- `NullPointerException` handling
+
+## Conclusion
+
+This lab provided practical experience in creating and using Java classes and objects. It also demonstrated how objects can be related to one another through references.
